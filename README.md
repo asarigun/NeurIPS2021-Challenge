@@ -42,7 +42,7 @@ You can find code examples for exploring the data in our data [exploration noteb
 
 <p align="center"><img width="80%" src="https://github.com/asarigun/NeurIPS2021-Challenge/blob/main/docs/wgan.png"></p>
 
-* ```wgan.py```: Model Architecture for Modality Prediction task. This model adapted from WGAN approaches to convert one type of datastructure to another one by **Adversarial Training**. In the figure, as an example ```GEX``` to ```ATAC``` have been illusturated but the other type of conversions can be seen below:
+* ```CellGAN/```: Model Architecture **([CellGAN](CellGAN/))** for Modality Prediction task. This model adapted from WGAN approaches to convert one type of datastructure to another one by **Adversarial Training**. In the figure, as an example ```GEX``` to ```ATAC``` have been illusturated but the other type of conversions can be seen below:
 
 * <table><thead><tr><th><code>mod1</code></th><th><code>mod2</code></th></tr></thead><tbody><tr><td><code>"GEX"</code></td><td><code>"ATAC"</code></td></tr><tr><td><code>"ATAC"</code></td><td><code>"GEX"</code></td></tr><tr><td><code>"GEX"</code></td><td><code>"ADT"</code></td></tr><tr><td><code>"ADT"</code></td><td><code>"GEX"</code></td></tr></tbody></table>
 
